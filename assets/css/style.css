@@ -1,0 +1,51 @@
+body {
+    background-color: #d0eaa3;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ade4b5;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #8dd397}
+  
+  .button:active {
+    background-color: #8dd397;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  /* largura de toda a barra de rolagem */
+  body::-webkit-scrollbar {
+    width: 12px;               
+}
+
+    /* cor da área de rastreamento */
+body::-webkit-scrollbar-track {
+    background: transparent;        
+}
+  
+  body::-webkit-scrollbar-thumb {
+    /* cor do polegar de rolagem */
+    background-color: #5a7f78;    
+    /* arredondamento do polegar de rolagem */
+    border-radius: 20px;       
+    /* cria preenchimento ao redor do polegar de rolagem */
+    border: 3px solid #5a7f78;  
+}
