@@ -32,7 +32,7 @@ div {
   }
 
   /* largura de toda a barra de rolagem */
-  body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     width: 12px;               
 }
 
@@ -41,11 +41,25 @@ body::-webkit-scrollbar-track {
     background: transparent;        
 }
   
-  body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     /* cor do polegar de rolagem */
     background-color: #5a7f78;    
     /* arredondamento do polegar de rolagem */
     border-radius: 20px;       
     /* cria preenchimento ao redor do polegar de rolagem */
     border: 3px solid #5a7f78;  
+}
+
+.wrapper-img{
+    filter: none;
+    object-fit: cover;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.wrapper-img:hover{
+    filter: none;
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
 }
